@@ -1,6 +1,6 @@
 import json
 
-l, lp, g = 1000, [], {} # (limit, list of primes, groups)
+l, lp, g = 500, [], {} # (limit, list of primes, groups)
 
 for n in range(2, l+1): 
   c = 1
