@@ -13,7 +13,7 @@ for i in range(len(lp)-1):
   if d in g.keys(): g[d].append(p)
   else: g[d] = [p]
 
-with open("groupings.json", "w") as f: # (file)
+with open("groups.json", "w") as f: # (file)
   json.dump(g, f, indent= 2)
 
 # time to complete -> 29:45.83
