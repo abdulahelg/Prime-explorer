@@ -22,7 +22,7 @@ with open("groups.json", "w") as f: # (file)
 # 333 characters
 
 
-''' AI's model code (this is for comparison)
+''' AI's model code (just for comparison)
 
 import json
 
